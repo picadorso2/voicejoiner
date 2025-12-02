@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="images/banner.png" width="100%" alt="Project Banner">
 </p>
@@ -6,11 +5,11 @@
 <h1 align="center">🌀 Picadorso2 Voice Joiner – V25 Apex Ultimate</h1>
 
 <p align="center">
-  Profesyonel • Modern • Apex Tasarımı • Gelişmiş Çoklu Ses Botu Yöneticisi
+  Profesyonel Discord Ses Botu Yöneticisi • Apex UI • Çoklu Bot • FFmpeg Ses Motoru
 </p>
 
 <p align="center">
-  <!-- BADGES -->
+
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Discord.py-2.3-purple?style=for-the-badge">
   <img src="https://img.shields.io/badge/PyQt6-Apex_UI-orange?style=for-the-badge">
@@ -20,130 +19,98 @@
 </p>
 
 ---
-
-## 🎨 **Apex UI – Gelişmiş Arayüz Gösterimi**
-
-> Aşağıdaki görselleri `/images/` klasörüne ekleyebilirsiniz.  
-> Bu bölüm tamamen V25 Apex Ultimate arayüzünü sergilemek için geliştirildi.
-
-### 🔹 Ana Panel – Apex Dashboard
 ```
-![Ana Panel](images/ui_dashboard.png)
-```
-
-### 🔹 Çoklu Bot Yönetim Ekranı
-```
-![Bot Yöneticisi](images/ui_bots.png)
-```
-
-### 🔹 Sistem HUD – CPU/RAM/GPU İzleme
-```
-![Sistem HUD](images/ui_hud.png)
-```
-
-### 🔹 Apex Kontrol Butonları (Özel Tasarım)
-```
-![Apex Buton Tasarımları](images/ui_controls.png)
+![Proje Görsel 1](images/ui_1.png)
+![Proje Görsel 2](images/ui_2.png)
+![Proje Görsel 3](images/ui_3.png)
+![Proje Görsel 4](images/ui_4.png)
 ```
 
 ---
 
 ## 📌 **Hakkında**
 
-**Picadorso2 Voice Joiner**, birden fazla Discord ses botunu **tek panelden yönetebileceğiniz profesyonel bir yönetim uygulamasıdır.**
-
-✔ Kod bilgisi gerekmez  
-✔ Çoklu bot aynı anda ses kanallarına girer  
-✔ Apex temalı modern UI  
-✔ Harika performans + stabil çalışma  
+**Picadorso2 Voice Joiner**, gelişmiş bir Discord ses botu yönetim panelidir.  
+Tek arayüz üzerinden birden fazla botu ses kanallarına sokabilir,  
+yüksek kalitede müzik/ses oynatabilir ve Apex temasının şıklığını yaşayabilirsiniz.
 
 ---
 
 ## 🚀 **Öne Çıkan Özellikler**
 
 ### 🔹 Çoklu Bot Yönetimi
-- Aynı anda **20 adet bot** ekleyebilir ve yönetebilirsiniz  
+- Aynı anda **20 bot** kontrol edilebilir  
 - Her bot için ayrı kontrol paneli
 
-### 🔹 Gelişmiş FFmpeg Ses Motoru
-- .mp3 / .mp4 / .wav destekler  
-- Temiz, güçlü ve gecikmesiz ses işleme
+### 🔹 FFmpeg Ses Motoru
+- Destekler: `.mp3`, `.mp4`, `.wav`  
+- Temiz ve gecikmesiz oynatma
 
-### 🔹 Apex UI (Özel Tasarım)
-- Koyu tema uyumlu  
-- Özel çizim butonlar  
-- Modern kayan animasyonlar  
-- Responsive (yeniden boyutlandırılabilir) grid altyapısı
+### 🔹 Apex UI (Modern Koyu Tema)
+- Özel çizim buton tasarımları  
+- Responsive grid altyapısı  
+- Ultra modern karanlık arayüz
 
-### 🔹 Sistem HUD (Akıllı İzleme)
+### 🔹 Sistem HUD
 - CPU  
 - RAM  
-- GPU (varsa otomatik algılama)  
-- Anlık kullanım grafikleri
+- GPU takibi
 
 ### 🔹 RAM Booster
-- Tek tıkla gereksiz bellek kullanımını azaltır  
+- Tek tıklamayla bellek temizleme
 
-### 🔹 Kalıcı Hafıza (Geliştirildi)
-- Ayarlar **settings.json** içinde saklanır  
-- Tüm bilgiler **yalnızca sizin cihazınızda** tutulur  
-- Herhangi bir sunucuya gönderilmez
+### 🔹 Kalıcı Hafıza
+- Tüm ayarlar **settings.json** içinde saklanır  
+- **Bilgiler sadece sizin cihazınızda kalır**
 
 ### 🔹 Webhook Loglama
-- Bot giriş çıkışları  
-- Hata kayıtları  
-- Sistem olayları  
+- Bot giriş/çıkış logları  
+- Hata raporları  
 
 ### 🔹 Oto-Başlat Sistemi
-- Program açıldığında botları otomatik olarak ses kanallarına ekler
+- Program açılınca botlar otomatik odalara bağlanır
 
 ---
 
-## 📥 **Kurulum (Kullanıcılar İçin)**
+## 📥 **Kurulum (Kullanıcılar)**
 
-Hazır kurulabilir EXE sürümünü indirmek için:
-
-1. Sağdaki **Releases** bölümüne gidin  
-2. `Picadorso2_V25.zip` dosyasını indirin  
-3. Klasöre çıkarın  
-4. `Picadorso2_V25.exe` dosyasını çalıştırın  
-
-> Tüm gerekli DLL + ffmpeg paket içinde bulunmaktadır.
+1. Sağdaki **Releases** menüsüne gidin  
+2. En güncel `Picadorso2_V25.zip` dosyasını indirin  
+3. Çıkartın  
+4. `Picadorso2_V25.exe` dosyasını açın  
 
 ---
 
 ## 🛠️ **Kaynak Koddan Çalıştırma (Geliştiriciler)**
 
-### 1️⃣ Gereksinimler:
+### Gereksinimler:
 ```bash
 pip install PyQt6 discord.py psutil PyNaCl requests
 ```
 
-### 2️⃣ Gereken Dosyalar
-`main.py` ile aynı klasörde olmalıdır:
-
+### Zorunlu Dosyalar:
 - ffmpeg.exe  
 - libopus-0.x64.dll  
 
-### 3️⃣ Çalıştır:
+### Çalıştırma:
 ```bash
 python main.py
 ```
 
 ---
 
-## 🆘 **Destek ve İletişim**
+## 🆘 **Destek**
 
-Sorun yaşarsanız bana **Discord üzerinden direkt ulaşabilirsiniz:**  
+Bir hata veya problem durumunda bana **Discord üzerinden ulaşabilirsiniz:**  
 👉 `picador_so2`
 
 ---
 
 ## ⚠️ **Yasal Uyarı**
 
-Bu yazılım yalnızca **eğitim ve kişisel kullanım** amaçlı tasarlanmıştır.  
-Discord Hizmet Şartları'na aykırı kullanımdan oluşabilecek sorunlardan **kullanıcı sorumludur**.  
-Geliştirici **Picadorso2** hiçbir hukuki sorumluluk kabul etmez.
+Bu yazılım eğitim ve kişisel kullanım amaçlı geliştirilmiştir.  
+Discord TOS’a aykırı kullanımların sorumluluğu kullanıcıya aittir.  
+Geliştirici **Picadorso2** sorumluluk kabul etmez.
 
 ---
 
