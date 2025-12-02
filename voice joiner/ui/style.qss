@@ -1,0 +1,106 @@
+QMainWindow {
+    background-color: #050505;
+}
+
+QWidget {
+    font-family: "Segoe UI", "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #e0e0e0;
+}
+
+QDialog {
+    background-color: #0f0f0f;
+    border: 1px solid #1f1f1f;
+}
+
+QFrame#sidebar {
+    background-color: #0b0b0b;
+    border-right: 1px solid #1a1a1a;
+}
+
+QFrame#cardFrame {
+    background-color: #0f0f0f;
+    border: 1px solid #1f1f1f;
+    border-radius: 8px;
+}
+
+QFrame#cardFrame:hover {
+    border: 1px solid #00f2ea;
+    background-color: #141414;
+}
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox {
+    background-color: #080808;
+    border: 1px solid #262626;
+    border-radius: 4px;
+    padding: 8px 10px;
+    color: #ffffff;
+    min-height: 22px;
+}
+
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus {
+    border: 1px solid #00f2ea;
+    background-color: #000000;
+}
+
+QSpinBox::up-button, QSpinBox::down-button,
+QDoubleSpinBox::up-button, QDoubleSpinBox::down-button {
+    width: 0px;
+    height: 0px;
+    border: none;
+    background: transparent;
+}
+
+QScrollArea { background: transparent; border: none; }
+QScrollArea > QWidget > QWidget { background: transparent; }
+
+QScrollBar:vertical {
+    background: #050505;
+    width: 6px;
+    margin: 0;
+}
+QScrollBar::handle:vertical {
+    background: #333;
+    border-radius: 3px;
+    min-height: 30px;
+}
+
+QTextEdit {
+    background-color: #080808;
+    color: #00f2ea;
+    border: 1px solid #1f1f1f;
+    border-radius: 6px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    padding: 10px;
+}
+
+QTextBrowser {
+    background-color: #0f0f0f;
+    color: #cccccc;
+    border: none;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+QCheckBox { color: #888; spacing: 8px; }
+QCheckBox::indicator {
+    width: 16px; height: 16px;
+    border: 1px solid #333;
+    background: #000;
+    border-radius: 3px;
+}
+QCheckBox::indicator:checked {
+    background-color: #00f2ea;
+    border-color: #00f2ea;
+}
+
+QLabel#titleLabel { font-size: 28px; font-weight: 900; color: #fff; letter-spacing: -1px; }
+QLabel#subLabel { font-size: 11px; font-weight: bold; color: #00f2ea; letter-spacing: 4px; margin-bottom: 20px; }
+QLabel#guideTitle { font-size: 22px; font-weight: bold; color: #fff; margin-bottom: 10px; }
+QLabel#statsLabel { font-size: 14px; font-weight: bold; color: #00f2ea; font-family: "Consolas"; letter-spacing: 1px; background-color: #0f0f0f; border: 1px solid #1f1f1f; border-radius: 6px; padding: 10px; }
+
+QLabel#statusOnline { color: #00f2ea; font-weight: 900; letter-spacing: 1px; }
+QLabel#statusOffline { color: #444; font-weight: 900; letter-spacing: 1px; }
+QLabel#statusError { color: #ff0055; font-weight: 900; letter-spacing: 1px; }
