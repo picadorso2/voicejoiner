@@ -18,13 +18,6 @@
   <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge">
 </p>
 
----
-```
-![Proje Görsel 1](images/ui_1.png)
-![Proje Görsel 2](images/ui_2.png)
-![Proje Görsel 3](images/ui_3.png)
-![Proje Görsel 4](images/ui_4.png)
-```
 
 ---
 
