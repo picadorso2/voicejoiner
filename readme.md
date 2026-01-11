@@ -108,5 +108,5 @@ Geliştirici **Picadorso2** sorumluluk kabul etmez.
 ---
 
 <p align="center">
-  © 2025 Picadorso2 — Tüm Hakları Saklıdır.
+  © 2025 Picadorso2
 </p>
